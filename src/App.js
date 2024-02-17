@@ -1,10 +1,16 @@
 import './App.css';
-
+import Nav from './Nav';
+import Footer from './Footer';
+import Main from './Main';
+import Header from './Header';
 function App() {
   return (
-   <div>
-    <h1> titi </h1>
-   </div>
+  <>
+  <Nav/>
+  <Header/>
+  <Main />
+  <Footer/> 
+  </>
   );
 }
 
