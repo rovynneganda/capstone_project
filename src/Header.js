@@ -1,5 +1,6 @@
 import React from "react";
 import { headerpic } from "./icons_assets";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <header className="header">
@@ -10,7 +11,7 @@ const Header = () => {
           We are a family owned Meditarrenaran restaurant, focused <br /> on
           traditional recipes served with a modern twist
         </p>
-        <button>Reserve a Table</button>
+        <Link to="/booking" className="header-btn" >Reserve a Table</Link>
       </div>
 
       <div className="header-img">
