@@ -1,6 +1,7 @@
 import React from "react";
 import { logo } from "./icons_assets";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 const Nav = () => {
   const [navbar, setNavbar] = useState(false);
   const handleSetNavbaR = () => {
@@ -20,9 +21,9 @@ const Nav = () => {
         </div>
         <ul className="nav-ul">
           <li>
-            <a className="a-tag" href="">
+            <Link className="a-tag" to ="/">
               Home
-            </a>
+            </Link>
           </li>
           <li>
             <a className="a-tag" href="">
